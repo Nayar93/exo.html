@@ -1,0 +1,182 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.bloc-cards {
+    display: flex;
+    margin: 60px ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(239, 239, 239);
+    border-radius: 25px;
+}
+
+
+
+
+.cannebiére{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.cannebiére-picture {
+    width: 250px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+
+
+.port{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.port-picture {
+    width: 250px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.mouettes{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.mouettes-picture {
+    width: 250px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.mer {width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.mer-picture {
+    width: 250px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.panier{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.panier-picture {
+    width: 250px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.amina{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+.amina-picture {
+    width: 250px;
+    height: 100px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+
+
+
+@media screen and (min-width: 796px) and (max-width: 1200px) {
+    .bloc-cards {
+        width: 100%;
+        flex-wrap: wrap ;
+    }
+    .cannebiére{
+        width: 300px;
+        border-radius: 25px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .cannebiére-picture {
+        width: 294px;
+        height: 150px;
+        padding: 3px 3px 0px 3px;
+        border-radius: 25px;
+    }
+    
+    .port{
+        border-radius: 25px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .port-picture {
+        width: 250px;
+        height: 150px;
+        padding: 3px 3px 0px 3px;
+        border-radius: 25px;
+    }
+    
+    .mouettes{
+        border-radius: 25px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .mouettes-picture {
+        width: 250px;
+        height: 150px;
+        padding: 3px;
+        border-radius: 25px;
+    }
+    
+    .mer {
+        border-radius: 25px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .mer-picture {
+        width: 250px;
+        height: 150px;
+        padding: 3px;
+        border-radius: 25px;
+    }
+    
+    .panier{
+        border-radius: 25px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .panier-picture {
+        width: 250px;
+        height: 150px;
+        padding: 3px;
+        border-radius: 25px;
+    }
+    
+    .amina{
+        border-radius: 25px;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .amina-picture {
+        width: 250px;
+        height: 150px;
+        padding: 5px;
+        border-radius: 25px;
+    }
+
+
+}
